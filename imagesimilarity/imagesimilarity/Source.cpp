@@ -12,7 +12,7 @@
 using namespace cv;
 using namespace std;
 gmm_object obj1;
-int KLD_THRESHOLD = 20;
+const int KLD_THRESHOLD = 20;
 string similar_path, notsimilar_path;
 int count = 0, error_count = 0;
 
@@ -197,7 +197,7 @@ int main() {
 	
 	getline(std::cin, queryimage);
 
-	std::cout << "Enter path of directory containing iamges to be checked \n[EXAMPLE]\t C:\\Users\\Dhruv\\Documents\\Test\n";
+	std::cout << "Enter path of directory containing images to be checked \n[EXAMPLE]\t C:\\Users\\Dhruv\\Documents\\Test\n";
 	getline(std::cin,querydir);
 	
    
