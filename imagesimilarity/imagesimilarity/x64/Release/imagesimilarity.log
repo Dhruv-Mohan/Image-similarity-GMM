@@ -1,0 +1,7 @@
+﻿  Source.cpp
+Source.cpp(51): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+Source.cpp(147): warning C4129: '/' : unrecognized character escape sequence
+Source.cpp(156): warning C4129: '/' : unrecognized character escape sequence
+  Generating code
+  Finished generating code
+  imagesimilarity.vcxproj -> c:\users\dhruv\documents\visual studio 2015\Projects\imagesimilarity\x64\Release\imagesimilarity.exe
